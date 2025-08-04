@@ -5,6 +5,15 @@
     margin: 20px 170px;
 }
 
+.logo span{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -24,4 +33,9 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
