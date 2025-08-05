@@ -6,7 +6,7 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 
 const TechStack = () => {
   return (
-    <div className='techstack'>
+    <div id='techstack' className='techstack'>
         <div className="techstack-title">
             <h1>TechStack</h1>
             <img src={theme_pattern} alt="" />

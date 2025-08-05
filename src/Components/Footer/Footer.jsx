@@ -8,7 +8,10 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer-top">
         <div className="footer-top-left">
-            <img src={footer_logo} alt=""/>
+            {/*<img src={footer_logo} alt=""/>*/}
+            <div className='logo'>
+                <h><b><span>Bhargav</span></b></h>
+            </div>
             <p>This is a small text add what uou need</p>
         </div>
         <div className="footer-top-right">
