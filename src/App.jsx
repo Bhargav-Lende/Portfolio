@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import About from './Components/About/About'
 import Certifications from './Components/Certifications/Certifications'
 import TechStack from './Components/TechStack/TechStack'
+import Contact from './Components/Contact/Contact'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About/>
       <Certifications/>
       <TechStack/>
+      <Contact/>
     </div>
   )
 }
