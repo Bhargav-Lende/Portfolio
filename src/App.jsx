@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Certifications from './Components/Certifications/Certifications'
 import TechStack from './Components/TechStack/TechStack'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Certifications/>
       <TechStack/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
