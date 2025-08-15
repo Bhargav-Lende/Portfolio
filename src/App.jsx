@@ -7,6 +7,7 @@ import TechStack from './Components/TechStack/TechStack'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 
+
 const App = () => {
   return (
     <div>
@@ -17,7 +18,9 @@ const App = () => {
       <TechStack/>
       <Contact/>
       <Footer/>
+      
     </div>
+    
   )
 }
 
